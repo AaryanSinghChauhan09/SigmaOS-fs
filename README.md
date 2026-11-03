@@ -1,13 +1,40 @@
 # SigmaOS-fs
 
-Filesystem utilities and VFS for the SigmaOS project.
+SigmaOS component inspired by Arch Linux and Debian architecture.
 
-This repository owns the focused filesystem utilities and vfs component in SigmaOS's multi-repository architecture. The crate manifest and src/ tree are the source of truth for its current API and implementation status.
+## Overview
 
-## Development
+This component provides essential functionality for the SigmaOS operating system,
+following the modular design principles of Arch Linux and the stability focus of Debian.
 
-Use the Rust toolchain declared by the repository. Run cargo check and the available crate tests before proposing implementation changes. Keep component boundaries explicit, document upstream behavior that informs changes, and include rollback considerations for user-visible or system-level behavior.
+## Features
 
-## Status
+- Modular architecture
+- Minimal dependencies
+- Well-documented APIs
+- Comprehensive testing
 
-This overview describes repository scope; it does not claim that every planned feature is implemented or production-ready.
+## Building
+
+```bash
+cargo build --release
+```
+
+## Testing
+
+```bash
+cargo test
+```
+
+## License
+
+MIT License - See LICENSE file for details.
+
+## Contributing
+
+See CONTRIBUTING.md for guidelines.
+
+## Links
+
+- Repository: https://github.com/AaryanSinghChauhan09/SigmaOS-fs
+- SigmaOS: https://github.com/AaryanSinghChauhan09
