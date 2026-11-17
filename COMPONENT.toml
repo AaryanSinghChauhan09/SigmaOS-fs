@@ -3,12 +3,12 @@ name = "SigmaOS-fs"
 tier = 2
 stability = "scaffold"
 language = "rust"
-description = "fs component"
+description = "SigmaOS filesystem abstractions and VFS layer"
 upstream = []
 
 [contract]
 provides = ["component"]
-depends_on = []
+depends_on = ["SigmaOS-system"]
 
 [maturity]
 status = "Scaffold"
