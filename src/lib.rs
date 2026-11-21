@@ -6,6 +6,9 @@ pub mod sigmafs;
 /// Filesystem creation tool (mkfs-style).
 pub mod sigmamkfs;
 
+/// Filesystem monitoring: watches, I/O metrics, threshold alerts.
+pub mod sigmafsmon;
+
 use std::collections::BTreeMap;
 use std::fmt;
 
