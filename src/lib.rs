@@ -3,6 +3,9 @@
 /// System filesystem manager module.
 pub mod sigmafs;
 
+/// Filesystem creation tool (mkfs-style).
+pub mod sigmamkfs;
+
 use std::collections::BTreeMap;
 use std::fmt;
 
