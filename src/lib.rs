@@ -1,5 +1,8 @@
 //! SigmaOS-fs: fs component model.
 
+/// System filesystem manager module.
+pub mod sigmafs;
+
 use std::collections::BTreeMap;
 use std::fmt;
 
