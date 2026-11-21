@@ -9,6 +9,9 @@ pub mod sigmamkfs;
 /// Filesystem monitoring: watches, I/O metrics, threshold alerts.
 pub mod sigmafsmon;
 
+/// Mount management: fstab-style entries, options, mount table.
+pub mod sigmamount;
+
 use std::collections::BTreeMap;
 use std::fmt;
 
